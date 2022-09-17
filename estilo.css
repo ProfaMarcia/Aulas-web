@@ -1,0 +1,164 @@
+html, body {
+        height: 100%;
+        background-color: #FFE4B5;
+		
+		}
+
+        body {
+            max-width: 1000px;
+            height: 400px;
+            font-family: gotham, arial, helvetica, sans-serif;
+            font-size: 18px;
+            padding: 0;
+            margin: 0 auto !important;
+        }
+		
+		table{
+			color: #cc3300;
+		}
+        
+        h1 {
+            font-size:30px;
+            color:#0c73fa;
+            font-weight:bold;
+           
+        }
+
+        h4 {
+            font-size:20px;
+            color:#ffffff;
+            font-weight:bold;
+            align-items: center;
+           
+        }
+      
+         
+        p {
+            font-size:17px;
+            margin-left:10px;
+            margin-bottom:15px;
+        }
+      
+        .menu { 
+            position: sticky;
+            top: 0;
+            background-color: #f16b12;
+            padding:10px 0px 10px 0px;
+            color:white;
+            margin: 0 auto;
+            overflow: hidden;
+            
+        }
+
+
+        .menu a{
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; 
+            font-size: 20px;
+        }
+
+
+        .menu-log {
+            right: auto;
+            float: right;
+        }
+
+        a:hover {
+             
+            color: white;
+            text-decoration: none;
+            font-size: larger;
+            background-color:#0c73fa;
+        }
+		
+		a{
+			text-decoration: none;
+
+					}
+
+        footer {
+            max-width: 1000px;
+            bottom: 0px;
+            background-color: #000;
+            color: #fff;
+            font-size: 18px;
+            padding: 0;
+            margin: 0 auto !important;
+        }
+        .body_sec {
+            margin-left:20px;
+	
+        }
+		
+		 /* a partir daqui é o login */
+		
+  form {
+  border: 3px solid #f16b12;
+  width: 400px;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #cc3300;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.6;
+}
+
+/* Extra style for the cancel button (red) */
+.cadastrobtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
